@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "hashed_password_here"
+    },
+    {
+      "id": "2",
+      "username": "jane_doe",
+      "email": "jane@example.com",
+      "password": "hashed_password_here"
+    },
+    {
+      "id": "9220",
+      "username": "testuser",
+      "password": "password123",
+      "email": "testuser@example.com",
+      "fullName": "Test User"
+    },
+    {
+      "id": "fe75",
+      "username": "testuser",
+      "password": "password123",
+      "email": "testuser@example.com",
+      "fullName": "Test User"
+    },
+    {
+      "id": "b03f",
+      "username": "testuser",
+      "password": "password123",
+      "email": "testuser@example.com",
+      "fullName": "Test User"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Clothing"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 13",
+      "description": "Latest Apple iPhone",
+      "price": 999,
+      "stock": 20,
+      "categoryId": 1
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S21",
+      "description": "Latest Samsung Phone",
+      "price": 899,
+      "stock": 15,
+      "categoryId": 1
+    },
+    {
+      "id": "3",
+      "name": "T-shirt",
+      "description": "Cotton T-shirt",
+      "price": 20,
+      "stock": 100,
+      "categoryId": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "status": "shipped",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "status": "processing",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 2
+        },
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "fb8c",
+      "userId": "123",
+      "productId": "456",
+      "quantity": 1
+    },
+    {
+      "id": "2b87",
+      "userId": "3",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "4",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "aaaa",
+      "userId": "3",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "4",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productId": 1,
+      "rating": 5,
+      "comment": "Great product!"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": 2,
+      "rating": 4,
+      "comment": "Very good, but could be better."
+    },
+    {
+      "id": "3f03",
+      "userId": "123",
+      "productId": "456",
+      "rating": 5,
+      "comment": "Sản phẩm tuyệt vời!"
+    },
+    {
+      "id": "5cd4",
+      "userId": "3",
+      "productId": "4",
+      "rating": 5,
+      "comment": "Sản phẩm quá tuyệt vời!"
+    },
+    {
+      "id": "31e4",
+      "userId": "3",
+      "productId": "4",
+      "rating": 5,
+      "comment": "Sản phẩm quá tuyệt vời!"
+    }
+  ]
+}
